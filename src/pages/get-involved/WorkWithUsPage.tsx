@@ -6,7 +6,7 @@ import '../who-we-are/InnerPage.css'
 const opportunities = [
   { icon: '🕊', title: 'Peace Facilitator', type: 'Volunteer', desc: 'Support our community dialogue and mediation sessions as a trained co-facilitator. Training provided for suitable candidates.' },
   { icon: '📚', title: 'Youth Mentor', type: 'Volunteer', desc: 'Guide young Peace Ambassadors through leadership development, goal setting, and personal growth in schools and community settings.' },
-  { icon: '🎤', title: 'Community Mobiliser', type: 'Volunteer / Paid', desc: 'Help organise and mobilise communities for peace events, football tournaments, cultural festivals, and outreach activities.' },
+  { icon: '🎤', title: 'Community Mobilisers', type: 'Volunteer / Paid', desc: 'Help organise and mobilise communities for peace events, football tournaments, cultural festivals, and outreach activities.' },
   { icon: '💻', title: 'Digital & Communications', type: 'Volunteer', desc: 'Support our social media, website, photography, videography, and storytelling efforts to amplify our impact.' },
   { icon: '📊', title: 'Monitoring & Evaluation', type: 'Consultancy', desc: 'Help us assess the impact of our programmes, collect data, and document learning for organisational improvement.' },
   { icon: '🤝', title: 'Partnership Development', type: 'Consultancy', desc: 'Help us identify, cultivate, and formalise partnerships with NGOs, government bodies, and institutional donors.' },
