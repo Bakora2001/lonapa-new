@@ -30,37 +30,20 @@
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
   margin-right: auto;
 }
 
-.logo-mark svg {
-  width: 40px;
-  height: 40px;
+.logo-img {
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: height 0.3s ease;
 }
 
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.logo-main {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  letter-spacing: -0.02em;
-}
-
-.logo-sub {
-  font-family: var(--font-body);
-  font-size: 0.65rem;
-  font-weight: 500;
-  color: var(--primary);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+.navbar.scrolled .logo-img {
+  height: 56px;
 }
 
 /* Nav links */
@@ -94,15 +77,6 @@
 
 .navbar:not(.scrolled) .nav-link {
   color: rgba(255, 255, 255, 0.92);
-}
-
-.navbar:not(.scrolled) .logo-main,
-.navbar:not(.scrolled) .logo-sub {
-  color: white;
-}
-
-.navbar:not(.scrolled) .logo-mark svg circle {
-  stroke: rgba(255,255,255,0.8);
 }
 
 .nav-link:hover,
@@ -307,5 +281,5 @@
 
 @media (max-width: 480px) {
   .navbar-inner { padding: 0 20px; }
-  .logo-sub { display: none; }
+  .logo-img { height: 52px; }
 }

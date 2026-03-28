@@ -1,5 +1,7 @@
 import React from 'react'
 import './AboutSection.css'
+import imgMain from '../../assets/img1.jpeg'
+import imgSecondary from '../../assets/governor-photo.jpeg'
 
 const values = [
   { title: 'Peace First', desc: 'Every initiative starts with a commitment to non-violence, dialogue, and mutual respect.' },
@@ -16,13 +18,13 @@ const AboutSection: React.FC = () => {
         <div className="about-visual reveal">
           <div className="about-img-main">
             <img
-              src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?w=700&q=80"
+              src={imgMain}
               alt="Community gathering"
             />
           </div>
           <div className="about-img-secondary">
             <img
-              src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=400&q=80"
+              src={imgSecondary}
               alt="Youth mentorship"
             />
           </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './Navbar.css'
+import logoImg from '../assets/logo-wlp.png'
 
 interface NavItem {
   label: string
@@ -88,18 +89,7 @@ const Navbar: React.FC = () => {
 
         {/* ── Logo ── */}
         <Link to="/" className="nav-logo">
-          <div className="logo-mark">
-            <svg viewBox="0 0 40 40" fill="none">
-              <circle cx="20" cy="20" r="18" stroke="var(--primary)" strokeWidth="2"/>
-              <path d="M12 26 L20 10 L28 26" stroke="var(--accent)" strokeWidth="2.5"
-                    strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-              <path d="M14.5 20 H25.5" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-          </div>
-          <div className="logo-text">
-            <span className="logo-main">Lonapa</span>
-            <span className="logo-sub">Peace Foundation</span>
-          </div>
+          <img src={logoImg} alt="Lonapa Peace Foundation" className="logo-img" />
         </Link>
 
         {/* ── Desktop nav ── */}

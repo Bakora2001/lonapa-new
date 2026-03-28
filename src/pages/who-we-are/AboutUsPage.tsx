@@ -6,6 +6,7 @@ import ceoImage from '../../assets/ceo.jpeg'
 import ceoImage5 from '../../assets/ceo5.jpeg'
 import ceoImage4 from '../../assets/ceo4.jpeg'
 import ceoImage6 from '../../assets/ceo6.jpeg'
+import aboutUsImage from '../../assets/about-us.jpeg'
 
 const AboutUsPage: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const AboutUsPage: React.FC = () => {
         tag="Who We Are"
         title="About Wilson Lonapa Peace Foundation"
         subtitle="A non-governmental, non-profit entity committed to fostering peace, empowering youth, and promoting cultural cohesion across the North Rift."
-        image="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&q=80"
+        image={aboutUsImage}
         breadcrumbs={[{ label: 'Who We Are' }, { label: 'About Us' }]}
       />
 
@@ -64,13 +65,11 @@ const AboutUsPage: React.FC = () => {
               {/* Founder Photos */}
               <div className="founder-photos reveal">
                 <div className="founder-photo-primary">
-                  {/* REPLACE: swap src with your own photo URL or local path */}
                   <img src={ceoImage} alt="CEO Wilson Lonapa" />
                   <div className="founder-photo-badge">Founder</div>
                 </div>
                 <div className="founder-photo-secondary">
-                  {/* REPLACE: swap src with your own second photo URL or local path */}
-                    <img src={ceoImage6} alt="CEO Wilson Lonapa" />
+                  <img src={ceoImage6} alt="CEO Wilson Lonapa" />
                   <div className="founder-photo-caption">In the Community</div>
                 </div>
               </div>
@@ -111,11 +110,6 @@ const AboutUsPage: React.FC = () => {
                     <span className="fstat-num">9</span>
                     <span className="fstat-label">Active Programs</span>
                   </div>
-                </div>
-
-                <div className="founder-note">
-                  <span className="note-icon">📌</span>
-                  <em>To replace these photos with your own, update the <code>src</code> attribute in <code>AboutUsPage.tsx</code> — lines marked with <code>REPLACE</code>.</em>
                 </div>
               </div>
             </div>

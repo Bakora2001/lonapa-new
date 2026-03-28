@@ -35,9 +35,9 @@
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(10, 40, 20, 0.72) 0%,
-    rgba(20, 60, 30, 0.58) 50%,
-    rgba(10, 40, 20, 0.4) 100%
+    rgba(10, 40, 20, 0.38) 0%,
+    rgba(20, 60, 30, 0.28) 50%,
+    rgba(10, 40, 20, 0.18) 100%
   );
 }
 
@@ -45,8 +45,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle at 20% 80%, rgba(232, 200, 50, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(45, 122, 79, 0.1) 0%, transparent 50%);
+    radial-gradient(circle at 20% 80%, rgba(232, 200, 50, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(45, 122, 79, 0.06) 0%, transparent 50%);
 }
 
 .hero-content {
@@ -104,6 +104,7 @@
   margin-bottom: 28px;
   max-width: 780px;
   letter-spacing: -0.02em;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.45);
 }
 
 .hero-title-line {
@@ -113,11 +114,12 @@
 
 .hero-subtitle {
   font-size: clamp(0.95rem, 1.5vw, 1.12rem);
-  color: rgba(255,255,255,0.82);
+  color: rgba(255,255,255,0.95);
   max-width: 540px;
   line-height: 1.75;
   margin-bottom: 40px;
   animation: fadeUp 0.8s ease both;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.4);
 }
 
 .hero-actions {

@@ -1,21 +1,24 @@
 import React, { useEffect, useState } from 'react'
 import './HeroSection.css'
+import hero1 from '../../assets/hero1.jpeg'
+import hero2 from '../../assets/hero2.jpeg'
+import hero3 from '../../assets/hero3.jpeg'
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&q=80',
+    image: hero2,
     tag: 'North Rift, Kenya',
     title: 'Building Peace,\nOne Community\nat a Time',
     subtitle: 'Empowering youth and uniting communities across the North Rift region of Kenya and Uganda through dialogue, mentorship and cultural heritage.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1600&q=80',
+    image: hero3,
     tag: 'Youth Empowerment',
     title: 'Nurturing the\nLeaders of\nTomorrow',
     subtitle: 'Over 200 trained Peace Ambassadors equipped with conflict resolution and leadership skills ready to transform their communities.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80',
+    image: hero1,
     tag: 'Cultural Heritage',
     title: 'Preserving\nCulture,\nStrengthening Identity',
     subtitle: 'Celebrating traditional ceremonies and dances that bind communities together and reinforce shared values across generations.',
