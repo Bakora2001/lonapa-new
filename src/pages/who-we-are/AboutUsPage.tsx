@@ -4,7 +4,7 @@ import Footer from '../../components/sections/Footer'
 import './InnerPage.css'
 import ceoImage from '../../assets/ceo.jpeg'
 import ceoImage5 from '../../assets/ceo5.jpeg'
-import ceoImage4 from '../../assets/ceo4.jpeg'
+import ceoImage4 from '../../assets/shujaa.jpeg'
 import ceoImage6 from '../../assets/ceo6.jpeg'
 import aboutUsImage from '../../assets/about-us.jpeg'
 
